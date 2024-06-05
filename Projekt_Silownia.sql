@@ -229,23 +229,23 @@
 REM INSERTING into SILOWNIA.KARNETY
 SET DEFINE OFF;
 Insert into SILOWNIA.KARNETY (ID_KARNETU,NAZWA,CENA,DLUGOSC_TRWANIA,TYP) values ('1','Karnet roczny','1000','365','roczny');
-Insert into SILOWNIA.KARNETY (ID_KARNETU,NAZWA,CENA,DLUGOSC_TRWANIA,TYP) values ('2','Karnet pó³roczny','600','182','pó³roczny');
-Insert into SILOWNIA.KARNETY (ID_KARNETU,NAZWA,CENA,DLUGOSC_TRWANIA,TYP) values ('3','Karnet miesiêczny','150','30','miesiêczny');
+Insert into SILOWNIA.KARNETY (ID_KARNETU,NAZWA,CENA,DLUGOSC_TRWANIA,TYP) values ('2','Karnet polroczny','600','182','polroczny');
+Insert into SILOWNIA.KARNETY (ID_KARNETU,NAZWA,CENA,DLUGOSC_TRWANIA,TYP) values ('3','Karnet miesieczny','150','30','miesieczny');
 Insert into SILOWNIA.KARNETY (ID_KARNETU,NAZWA,CENA,DLUGOSC_TRWANIA,TYP) values ('4','Karnet 2+2','300','120','Cztero-miesieczny');
 REM INSERTING into SILOWNIA.KLIENCI
 SET DEFINE OFF;
 Insert into SILOWNIA.KLIENCI (ID_KLIENTA,IMIE,NAZWISKO,ADRES,TELEFON,EMAIL,DATA_URODZENIA,DATA_DOLACZENIA,DATA_ODNOWIENIA_KARNETU,KARNET_ID,AKTYWNY,HASLO) values ('1','Jan','Kowalski','Boguchwala ul. Kwiatowa 10','123456789','jan.kowalski@email.com',to_date('90/01/01','RR/MM/DD'),to_date('23/01/01','RR/MM/DD'),to_date('24/06/01','RR/MM/DD'),'1','T','1234');
-Insert into SILOWNIA.KLIENCI (ID_KLIENTA,IMIE,NAZWISKO,ADRES,TELEFON,EMAIL,DATA_URODZENIA,DATA_DOLACZENIA,DATA_ODNOWIENIA_KARNETU,KARNET_ID,AKTYWNY,HASLO) values ('2','Anna','Nowak','Rzeszow ul. Leœna 5','987654321','anna.nowak@email.com',to_date('85/05/15','RR/MM/DD'),to_date('23/03/10','RR/MM/DD'),to_date('24/04/10','RR/MM/DD'),'2','T','1234');
-Insert into SILOWNIA.KLIENCI (ID_KLIENTA,IMIE,NAZWISKO,ADRES,TELEFON,EMAIL,DATA_URODZENIA,DATA_DOLACZENIA,DATA_ODNOWIENIA_KARNETU,KARNET_ID,AKTYWNY,HASLO) values ('3','Piotr','Wiœniewski','Boguchwala ul. Polna 8','456123789','piotr.wisniewski@email.com',to_date('82/11/20','RR/MM/DD'),to_date('23/02/26','RR/MM/DD'),to_date('24/03/28','RR/MM/DD'),'2','T','1234');
-Insert into SILOWNIA.KLIENCI (ID_KLIENTA,IMIE,NAZWISKO,ADRES,TELEFON,EMAIL,DATA_URODZENIA,DATA_DOLACZENIA,DATA_ODNOWIENIA_KARNETU,KARNET_ID,AKTYWNY,HASLO) values ('4','Katarzyna','Duda','Rzeszow ul. S³oneczna 3','369258147','katarzyna.duda@email.com',to_date('95/07/08','RR/MM/DD'),to_date('23/04/05','RR/MM/DD'),to_date('23/06/05','RR/MM/DD'),'1','T','1234');
-Insert into SILOWNIA.KLIENCI (ID_KLIENTA,IMIE,NAZWISKO,ADRES,TELEFON,EMAIL,DATA_URODZENIA,DATA_DOLACZENIA,DATA_ODNOWIENIA_KARNETU,KARNET_ID,AKTYWNY,HASLO) values ('5','Andrzej','Wójcik','Boguchwala ul. Zielona 12','741852963','andrzej.wojcik@email.com',to_date('88/03/25','RR/MM/DD'),to_date('23/06/20','RR/MM/DD'),to_date('24/01/20','RR/MM/DD'),'2','T','1234');
-Insert into SILOWNIA.KLIENCI (ID_KLIENTA,IMIE,NAZWISKO,ADRES,TELEFON,EMAIL,DATA_URODZENIA,DATA_DOLACZENIA,DATA_ODNOWIENIA_KARNETU,KARNET_ID,AKTYWNY,HASLO) values ('6','Aleksandra','Kamiñska','Rzeszow ul. Brzozowa 7','852963741','aleksandra.kaminska@email.com',to_date('93/09/12','RR/MM/DD'),to_date('23/05/18','RR/MM/DD'),to_date('24/02/18','RR/MM/DD'),'2','T','1234');
+Insert into SILOWNIA.KLIENCI (ID_KLIENTA,IMIE,NAZWISKO,ADRES,TELEFON,EMAIL,DATA_URODZENIA,DATA_DOLACZENIA,DATA_ODNOWIENIA_KARNETU,KARNET_ID,AKTYWNY,HASLO) values ('2','Anna','Nowak','Rzeszow ul. Lesna 5','987654321','anna.nowak@email.com',to_date('85/05/15','RR/MM/DD'),to_date('23/03/10','RR/MM/DD'),to_date('24/04/10','RR/MM/DD'),'2','T','1234');
+Insert into SILOWNIA.KLIENCI (ID_KLIENTA,IMIE,NAZWISKO,ADRES,TELEFON,EMAIL,DATA_URODZENIA,DATA_DOLACZENIA,DATA_ODNOWIENIA_KARNETU,KARNET_ID,AKTYWNY,HASLO) values ('3','Piotr','Wisniewski','Boguchwala ul. Polna 8','456123789','piotr.wisniewski@email.com',to_date('82/11/20','RR/MM/DD'),to_date('23/02/26','RR/MM/DD'),to_date('24/03/28','RR/MM/DD'),'2','T','1234');
+Insert into SILOWNIA.KLIENCI (ID_KLIENTA,IMIE,NAZWISKO,ADRES,TELEFON,EMAIL,DATA_URODZENIA,DATA_DOLACZENIA,DATA_ODNOWIENIA_KARNETU,KARNET_ID,AKTYWNY,HASLO) values ('4','Katarzyna','Duda','Rzeszow ul. Sloneczna 3','369258147','katarzyna.duda@email.com',to_date('95/07/08','RR/MM/DD'),to_date('23/04/05','RR/MM/DD'),to_date('23/06/05','RR/MM/DD'),'1','T','1234');
+Insert into SILOWNIA.KLIENCI (ID_KLIENTA,IMIE,NAZWISKO,ADRES,TELEFON,EMAIL,DATA_URODZENIA,DATA_DOLACZENIA,DATA_ODNOWIENIA_KARNETU,KARNET_ID,AKTYWNY,HASLO) values ('5','Andrzej','Wojcik','Boguchwala ul. Zielona 12','741852963','andrzej.wojcik@email.com',to_date('88/03/25','RR/MM/DD'),to_date('23/06/20','RR/MM/DD'),to_date('24/01/20','RR/MM/DD'),'2','T','1234');
+Insert into SILOWNIA.KLIENCI (ID_KLIENTA,IMIE,NAZWISKO,ADRES,TELEFON,EMAIL,DATA_URODZENIA,DATA_DOLACZENIA,DATA_ODNOWIENIA_KARNETU,KARNET_ID,AKTYWNY,HASLO) values ('6','Aleksandra','Kaminska','Rzeszow ul. Brzozowa 7','852963741','aleksandra.kaminska@email.com',to_date('93/09/12','RR/MM/DD'),to_date('23/05/18','RR/MM/DD'),to_date('24/02/18','RR/MM/DD'),'2','T','1234');
 Insert into SILOWNIA.KLIENCI (ID_KLIENTA,IMIE,NAZWISKO,ADRES,TELEFON,EMAIL,DATA_URODZENIA,DATA_DOLACZENIA,DATA_ODNOWIENIA_KARNETU,KARNET_ID,AKTYWNY,HASLO) values ('7','Marek','Lewandowski','Boguchwala ul. Morska 15','369147258','marek.lewandowski@email.com',to_date('76/12/30','RR/MM/DD'),to_date('22/07/10','RR/MM/DD'),to_date('23/09/10','RR/MM/DD'),'2','N','1234');
-Insert into SILOWNIA.KLIENCI (ID_KLIENTA,IMIE,NAZWISKO,ADRES,TELEFON,EMAIL,DATA_URODZENIA,DATA_DOLACZENIA,DATA_ODNOWIENIA_KARNETU,KARNET_ID,AKTYWNY,HASLO) values ('8','Magdalena','Zaj¹c','Rzeszow ul. Lipowa 4','159263874','magdalena.zajac@email.com',to_date('91/08/18','RR/MM/DD'),to_date('23/08/02','RR/MM/DD'),to_date('24/04/22','RR/MM/DD'),'3','T','1234');
-Insert into SILOWNIA.KLIENCI (ID_KLIENTA,IMIE,NAZWISKO,ADRES,TELEFON,EMAIL,DATA_URODZENIA,DATA_DOLACZENIA,DATA_ODNOWIENIA_KARNETU,KARNET_ID,AKTYWNY,HASLO) values ('9','Krzysztof','Adamczyk','Boguchwala ul. Dêbowa 6','147852369','krzysztof.adamczyk@email.com',to_date('80/04/03','RR/MM/DD'),to_date('23/09/22','RR/MM/DD'),to_date('24/06/01','RR/MM/DD'),'3','T','1234');
-Insert into SILOWNIA.KLIENCI (ID_KLIENTA,IMIE,NAZWISKO,ADRES,TELEFON,EMAIL,DATA_URODZENIA,DATA_DOLACZENIA,DATA_ODNOWIENIA_KARNETU,KARNET_ID,AKTYWNY,HASLO) values ('10','Ewa','Witkowska','Rzeszow ul. ¯urawia 9','258369147','ewa.witkowska@email.com',to_date('97/01/28','RR/MM/DD'),to_date('23/10/15','RR/MM/DD'),to_date('24/04/15','RR/MM/DD'),'1','T','1234');
-Insert into SILOWNIA.KLIENCI (ID_KLIENTA,IMIE,NAZWISKO,ADRES,TELEFON,EMAIL,DATA_URODZENIA,DATA_DOLACZENIA,DATA_ODNOWIENIA_KARNETU,KARNET_ID,AKTYWNY,HASLO) values ('42','test2','test2','Rzesz??w ul. Rejtana 1','123412312','t@t.com',to_date('24/05/27','RR/MM/DD'),to_date('24/06/01','RR/MM/DD'),to_date('24/06/01','RR/MM/DD'),'4','T','1234');
-Insert into SILOWNIA.KLIENCI (ID_KLIENTA,IMIE,NAZWISKO,ADRES,TELEFON,EMAIL,DATA_URODZENIA,DATA_DOLACZENIA,DATA_ODNOWIENIA_KARNETU,KARNET_ID,AKTYWNY,HASLO) values ('62','Patryk','B??k','Rzesz??w, ul. Polna 81','123456987','patryk.test@email.com',to_date('04/10/05','RR/MM/DD'),to_date('24/06/01','RR/MM/DD'),to_date('24/06/01','RR/MM/DD'),'1','T','1234');
+Insert into SILOWNIA.KLIENCI (ID_KLIENTA,IMIE,NAZWISKO,ADRES,TELEFON,EMAIL,DATA_URODZENIA,DATA_DOLACZENIA,DATA_ODNOWIENIA_KARNETU,KARNET_ID,AKTYWNY,HASLO) values ('8','Magdalena','Zajac','Rzeszow ul. Lipowa 4','159263874','magdalena.zajac@email.com',to_date('91/08/18','RR/MM/DD'),to_date('23/08/02','RR/MM/DD'),to_date('24/04/22','RR/MM/DD'),'3','T','1234');
+Insert into SILOWNIA.KLIENCI (ID_KLIENTA,IMIE,NAZWISKO,ADRES,TELEFON,EMAIL,DATA_URODZENIA,DATA_DOLACZENIA,DATA_ODNOWIENIA_KARNETU,KARNET_ID,AKTYWNY,HASLO) values ('9','Krzysztof','Adamczyk','Boguchwala ul. Debowa 6','147852369','krzysztof.adamczyk@email.com',to_date('80/04/03','RR/MM/DD'),to_date('23/09/22','RR/MM/DD'),to_date('24/06/01','RR/MM/DD'),'3','T','1234');
+Insert into SILOWNIA.KLIENCI (ID_KLIENTA,IMIE,NAZWISKO,ADRES,TELEFON,EMAIL,DATA_URODZENIA,DATA_DOLACZENIA,DATA_ODNOWIENIA_KARNETU,KARNET_ID,AKTYWNY,HASLO) values ('10','Ewa','Witkowska','Rzeszow ul. Zurawia 9','258369147','ewa.witkowska@email.com',to_date('97/01/28','RR/MM/DD'),to_date('23/10/15','RR/MM/DD'),to_date('24/04/15','RR/MM/DD'),'1','T','1234');
+Insert into SILOWNIA.KLIENCI (ID_KLIENTA,IMIE,NAZWISKO,ADRES,TELEFON,EMAIL,DATA_URODZENIA,DATA_DOLACZENIA,DATA_ODNOWIENIA_KARNETU,KARNET_ID,AKTYWNY,HASLO) values ('42','test2','test2','Rzeszow ul. Rejtana 1','123412312','t@t.com',to_date('24/05/27','RR/MM/DD'),to_date('24/06/01','RR/MM/DD'),to_date('24/06/01','RR/MM/DD'),'4','T','1234');
+Insert into SILOWNIA.KLIENCI (ID_KLIENTA,IMIE,NAZWISKO,ADRES,TELEFON,EMAIL,DATA_URODZENIA,DATA_DOLACZENIA,DATA_ODNOWIENIA_KARNETU,KARNET_ID,AKTYWNY,HASLO) values ('62','Patryk','Bak','Rzeszow, ul. Polna 81','123456987','patryk.test@email.com',to_date('04/10/05','RR/MM/DD'),to_date('24/06/01','RR/MM/DD'),to_date('24/06/01','RR/MM/DD'),'1','T','1234');
 REM INSERTING into SILOWNIA.OPINIE
 SET DEFINE OFF;
 Insert into SILOWNIA.OPINIE (ID_OPINII,OCENA,ID_UCZESTNICTWO) values ('2','3','2');
@@ -284,18 +284,18 @@ Insert into SILOWNIA.PROWADZENIE (ID_PROWADZENIA,ID_TRENERA,ID_ZAJEC,ID_SILOWNI,
 Insert into SILOWNIA.PROWADZENIE (ID_PROWADZENIA,ID_TRENERA,ID_ZAJEC,ID_SILOWNI,DATA_I_GODZINA) values ('101','1','3','1',to_timestamp('24/06/06 17:40:00,000000000','RR/MM/DD HH24:MI:SSXFF'));
 REM INSERTING into SILOWNIA.SILOWNIE
 SET DEFINE OFF;
-Insert into SILOWNIA.SILOWNIE (ID_SILOWNI,NAZWA,ADRES,TELEFON,EMAIL) values ('1','Powerhouse Gym','Boguchwala ul. Sportowa 1','123456789','sparta@example.com');
+Insert into SILOWNIA.SILOWNIE (ID_SILOWNI,NAZWA,ADRES,TELEFON,EMAIL) values ('1','Powerhouse Gym','Boguchwala ul. Sportowa 1','123456789','powerhouse@example.com');
 Insert into SILOWNIA.SILOWNIE (ID_SILOWNI,NAZWA,ADRES,TELEFON,EMAIL) values ('2','Fitness Center "Power"','Rzeszow ul. Aktywna 2','987654321','fitflex@example.com');
-Insert into SILOWNIA.SILOWNIE (ID_SILOWNI,NAZWA,ADRES,TELEFON,EMAIL) values ('3','Fitness Center "Sparta"','Rzeszow ul. Energiczna 3','555666777','powerhouse@example.com');
+Insert into SILOWNIA.SILOWNIE (ID_SILOWNI,NAZWA,ADRES,TELEFON,EMAIL) values ('3','Fitness Center "Sparta"','Rzeszow ul. Energiczna 3','555666777','sparta@example.com');
 REM INSERTING into SILOWNIA.TRENERZY
 SET DEFINE OFF;
-Insert into SILOWNIA.TRENERZY (ID_TRENERA,IMIE,NAZWISKO,SPECJALIZACJA,DOSWIADCZENIE,TELEFON,EMAIL,HASLO) values ('1','Adam','Kowalski','Trening si³owy','5','123456789','adam.kowalski@example.com','12345');
-Insert into SILOWNIA.TRENERZY (ID_TRENERA,IMIE,NAZWISKO,SPECJALIZACJA,DOSWIADCZENIE,TELEFON,EMAIL,HASLO) values ('2','Anna','Nowak','Zdrowie i od¿ywianie','8','987654321','anna.nowak@example.com','12345');
-Insert into SILOWNIA.TRENERZY (ID_TRENERA,IMIE,NAZWISKO,SPECJALIZACJA,DOSWIADCZENIE,TELEFON,EMAIL,HASLO) values ('3','Piotr','Wiœniewski','Trening funkcjonalny','6','555666777','piotr.wisniewski@example.com','12345');
-Insert into SILOWNIA.TRENERZY (ID_TRENERA,IMIE,NAZWISKO,SPECJALIZACJA,DOSWIADCZENIE,TELEFON,EMAIL,HASLO) values ('4','Karolina','Lewandowska','Trening interwa³owy','4','999888777','karolina.lewandowska@example.com','12345');
-Insert into SILOWNIA.TRENERZY (ID_TRENERA,IMIE,NAZWISKO,SPECJALIZACJA,DOSWIADCZENIE,TELEFON,EMAIL,HASLO) values ('5','Micha³','Wójcik','Trening kardio','7','444333222','michal.wojcik@example.com','12345');
+Insert into SILOWNIA.TRENERZY (ID_TRENERA,IMIE,NAZWISKO,SPECJALIZACJA,DOSWIADCZENIE,TELEFON,EMAIL,HASLO) values ('1','Adam','Kowalski','Trening silowy','5','123456789','adam.kowalski@example.com','12345');
+Insert into SILOWNIA.TRENERZY (ID_TRENERA,IMIE,NAZWISKO,SPECJALIZACJA,DOSWIADCZENIE,TELEFON,EMAIL,HASLO) values ('2','Anna','Nowak','Zdrowie i odzywianie','8','987654321','anna.nowak@example.com','12345');
+Insert into SILOWNIA.TRENERZY (ID_TRENERA,IMIE,NAZWISKO,SPECJALIZACJA,DOSWIADCZENIE,TELEFON,EMAIL,HASLO) values ('3','Piotr','Wisniewski','Trening funkcjonalny','6','555666777','piotr.wisniewski@example.com','12345');
+Insert into SILOWNIA.TRENERZY (ID_TRENERA,IMIE,NAZWISKO,SPECJALIZACJA,DOSWIADCZENIE,TELEFON,EMAIL,HASLO) values ('4','Karolina','Lewandowska','Trening interwalowy','4','999888777','karolina.lewandowska@example.com','12345');
+Insert into SILOWNIA.TRENERZY (ID_TRENERA,IMIE,NAZWISKO,SPECJALIZACJA,DOSWIADCZENIE,TELEFON,EMAIL,HASLO) values ('5','Michal','Wojcik','Trening kardio','7','444333222','michal.wojcik@example.com','12345');
 Insert into SILOWNIA.TRENERZY (ID_TRENERA,IMIE,NAZWISKO,SPECJALIZACJA,DOSWIADCZENIE,TELEFON,EMAIL,HASLO) values ('41','test','test','Sporty walki','3','120000998','test@email.com','12345');
-Insert into SILOWNIA.TRENERZY (ID_TRENERA,IMIE,NAZWISKO,SPECJALIZACJA,DOSWIADCZENIE,TELEFON,EMAIL,HASLO) values ('21','Jakub','Olej','Trening wytrzyma??o??ciowy','1','556677889','jakub.olej@example.com','12345');
+Insert into SILOWNIA.TRENERZY (ID_TRENERA,IMIE,NAZWISKO,SPECJALIZACJA,DOSWIADCZENIE,TELEFON,EMAIL,HASLO) values ('21','Jakub','Olej','Trening wytrzymalosciowy','1','556677889','jakub.olej@example.com','12345');
 REM INSERTING into SILOWNIA.UCZESTNICTWO
 SET DEFINE OFF;
 Insert into SILOWNIA.UCZESTNICTWO (ID_UCZESTNICTWO,ID_KLIENTA,ID_PROWADZENIA) values ('64','5','5');
@@ -330,65 +330,11 @@ Insert into SILOWNIA.ZAJECIA (ID_ZAJEC,NAZWA,DLUGOSC_TRWANIA) values ('3','Pilat
 Insert into SILOWNIA.ZAJECIA (ID_ZAJEC,NAZWA,DLUGOSC_TRWANIA) values ('4','Spinning','45');
 Insert into SILOWNIA.ZAJECIA (ID_ZAJEC,NAZWA,DLUGOSC_TRWANIA) values ('5','Yoga','75');
 Insert into SILOWNIA.ZAJECIA (ID_ZAJEC,NAZWA,DLUGOSC_TRWANIA) values ('6','Boks','60');
-Insert into SILOWNIA.ZAJECIA (ID_ZAJEC,NAZWA,DLUGOSC_TRWANIA) values ('7','Trening interwa³owy HIIT','30');
+Insert into SILOWNIA.ZAJECIA (ID_ZAJEC,NAZWA,DLUGOSC_TRWANIA) values ('7','Trening interwalowy HIIT','30');
 Insert into SILOWNIA.ZAJECIA (ID_ZAJEC,NAZWA,DLUGOSC_TRWANIA) values ('8','Stretching','45');
-Insert into SILOWNIA.ZAJECIA (ID_ZAJEC,NAZWA,DLUGOSC_TRWANIA) values ('9','Trening si³owy dla kobiet','60');
+Insert into SILOWNIA.ZAJECIA (ID_ZAJEC,NAZWA,DLUGOSC_TRWANIA) values ('9','Trening silowy dla kobiet','60');
 Insert into SILOWNIA.ZAJECIA (ID_ZAJEC,NAZWA,DLUGOSC_TRWANIA) values ('10','Trening funkcjonalny','60');
 Insert into SILOWNIA.ZAJECIA (ID_ZAJEC,NAZWA,DLUGOSC_TRWANIA) values ('21','Bieganie','90');
---------------------------------------------------------
---  DDL for Trigger REGISTERCLIENTTRIGGER
---------------------------------------------------------
-
-  CREATE OR REPLACE EDITIONABLE TRIGGER "SILOWNIA"."REGISTERCLIENTTRIGGER" 
-BEFORE INSERT ON KLIENCI
-FOR EACH ROW
-BEGIN
-    :NEW.ID_KLIENTA := KLIENT_ID.nextval;
-    :NEW.DATA_DOLACZENIA := SYSDATE;
-    :NEW.AKTYWNY := 'N';
-END;
-/
-ALTER TRIGGER "SILOWNIA"."REGISTERCLIENTTRIGGER" ENABLE;
---------------------------------------------------------
---  DDL for Trigger VALIDATE_UNIQUE_EMAIL_CLIENT
---------------------------------------------------------
-
-  CREATE OR REPLACE EDITIONABLE TRIGGER "SILOWNIA"."VALIDATE_UNIQUE_EMAIL_CLIENT" 
-BEFORE INSERT OR UPDATE OF EMAIL ON KLIENCI
-FOR EACH ROW
-BEGIN
-    IF :OLD.EMAIL IS NOT NULL AND :NEW.EMAIL = :OLD.EMAIL THEN
-        RETURN;
-    END IF;
-
-    IF :NEW.EMAIL IS NOT NULL THEN
-        IF NOT KLIENT_FUNCTIONS.IS_EMAIL_UNIQUE_CLIENT(:NEW.EMAIL, :NEW.ID_KLIENTA) THEN
-            RAISE_APPLICATION_ERROR(-20001, 'Adres e-mail jest ju? u?ywany przez innego klienta.');
-        END IF;
-    END IF;
-END;
-/
-ALTER TRIGGER "SILOWNIA"."VALIDATE_UNIQUE_EMAIL_CLIENT" ENABLE;
---------------------------------------------------------
---  DDL for Trigger VALIDATE_UNIQUE_EMAIL_TRAINER
---------------------------------------------------------
-
-  CREATE OR REPLACE EDITIONABLE TRIGGER "SILOWNIA"."VALIDATE_UNIQUE_EMAIL_TRAINER" 
-BEFORE INSERT OR UPDATE OF EMAIL ON TRENERZY
-FOR EACH ROW
-BEGIN
-    IF :OLD.EMAIL IS NOT NULL AND :NEW.EMAIL = :OLD.EMAIL THEN
-        RETURN;
-    END IF;
-
-    IF :NEW.EMAIL IS NOT NULL THEN
-        IF NOT TRAINER_FUNCTIONS.IS_EMAIL_UNIQUE_TRAINER(:NEW.EMAIL, :NEW.ID_TRENERA) THEN
-            RAISE_APPLICATION_ERROR(-20001, 'Adres e-mail jest juz uzywany przez innego trenera.');
-        END IF;
-    END IF;
-END;
-/
-ALTER TRIGGER "SILOWNIA"."VALIDATE_UNIQUE_EMAIL_TRAINER" ENABLE;
 --------------------------------------------------------
 --  DDL for Package KLIENT_FUNCTIONS
 --------------------------------------------------------
@@ -1055,6 +1001,61 @@ FUNCTION IS_EMAIL_UNIQUE_TRAINER(p_email VARCHAR2, p_id_trenera NUMBER) RETURN B
 END TRAINER_FUNCTIONS;
 
 /
+--------------------------------------------------------
+--  DDL for Trigger REGISTERCLIENTTRIGGER
+--------------------------------------------------------
+
+  CREATE OR REPLACE EDITIONABLE TRIGGER "SILOWNIA"."REGISTERCLIENTTRIGGER" 
+BEFORE INSERT ON KLIENCI
+FOR EACH ROW
+BEGIN
+    :NEW.ID_KLIENTA := KLIENT_ID.nextval;
+    :NEW.DATA_DOLACZENIA := SYSDATE;
+    :NEW.AKTYWNY := 'N';
+END;
+/
+ALTER TRIGGER "SILOWNIA"."REGISTERCLIENTTRIGGER" ENABLE;
+--------------------------------------------------------
+--  DDL for Trigger VALIDATE_UNIQUE_EMAIL_CLIENT
+--------------------------------------------------------
+
+  CREATE OR REPLACE EDITIONABLE TRIGGER "SILOWNIA"."VALIDATE_UNIQUE_EMAIL_CLIENT" 
+BEFORE INSERT OR UPDATE OF EMAIL ON KLIENCI
+FOR EACH ROW
+BEGIN
+    IF :OLD.EMAIL IS NOT NULL AND :NEW.EMAIL = :OLD.EMAIL THEN
+        RETURN;
+    END IF;
+
+    IF :NEW.EMAIL IS NOT NULL THEN
+        IF NOT KLIENT_FUNCTIONS.IS_EMAIL_UNIQUE_CLIENT(:NEW.EMAIL, :NEW.ID_KLIENTA) THEN
+            RAISE_APPLICATION_ERROR(-20001, 'Adres e-mail jest ju? u?ywany przez innego klienta.');
+        END IF;
+    END IF;
+END;
+/
+ALTER TRIGGER "SILOWNIA"."VALIDATE_UNIQUE_EMAIL_CLIENT" ENABLE;
+--------------------------------------------------------
+--  DDL for Trigger VALIDATE_UNIQUE_EMAIL_TRAINER
+--------------------------------------------------------
+
+  CREATE OR REPLACE EDITIONABLE TRIGGER "SILOWNIA"."VALIDATE_UNIQUE_EMAIL_TRAINER" 
+BEFORE INSERT OR UPDATE OF EMAIL ON TRENERZY
+FOR EACH ROW
+BEGIN
+    IF :OLD.EMAIL IS NOT NULL AND :NEW.EMAIL = :OLD.EMAIL THEN
+        RETURN;
+    END IF;
+
+    IF :NEW.EMAIL IS NOT NULL THEN
+        IF NOT TRAINER_FUNCTIONS.IS_EMAIL_UNIQUE_TRAINER(:NEW.EMAIL, :NEW.ID_TRENERA) THEN
+            RAISE_APPLICATION_ERROR(-20001, 'Adres e-mail jest juz uzywany przez innego trenera.');
+        END IF;
+    END IF;
+END;
+/
+ALTER TRIGGER "SILOWNIA"."VALIDATE_UNIQUE_EMAIL_TRAINER" ENABLE;
+
 --------------------------------------------------------
 --  Constraints for Table KARNETY
 --------------------------------------------------------
